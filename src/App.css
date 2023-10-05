@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  color:black;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  height: auto;
+ 
+}
+.headtitle{
+  text-align: center;
+  margin-top:2rem;
+}
+.App-header{
+  display: flex;
+  flex-direction: column;
+  gap:2em;
+  justify-content: center;
+  align-items: center;
+  /*background-color: rgb(12, 15, 48);*/
+  color:black;
+  font-size: 8px;
+  margin-top:5rem;
+  /*border-radius: 1rem;*/
+ /* border: 1px solid rgb(212, 163, 253);*/
+  box-shadow: rgba(139, 128, 221, 0.396) 0px 0px 10px;
+  padding: 3rem;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.App-body{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:2rem;
+  color:rgb(0, 0, 0);
+}
+.name_div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+   gap:2rem;
+   margin-bottom:5px;
+}
+input{
+  padding: 0.5rem;
+  gap: 1rem;
+  margin: 0 0.5rem;
+  border:none;
+  border-bottom: 1px solid rgb(222, 225, 228);
+  width:30%;
+  font-size: 1rem;
+
+}
+input:hover{
+  border-color: rgb(134, 29, 255);
+}
+ 
+input::placeholder{
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+}
+
+button{
+  background-color: rgb(251, 53, 251);
+  color: white;
+  padding:1rem 2rem;
+  gap:2rem;
+  border:none;
+  cursor: pointer;
+  margin: 1rem 2rem;
+ 
+  transition: 200ms;
+  
+}
+button:hover{
+  background-color:purple;
+}
+.createbtn, .updatebtn{
+  background-color: #6A62D2;
+  color:white;
+  font-size: 14px;
+
+  letter-spacing: 1px;
+}
+.createbtn:hover{
+  background-color: transparent;
+  border: 2px #6A62D2 solid;
+  color: #6A62D2;
+  
+}
+.editbtn{
+  background-color: rgb(10, 151, 3);
+}
+.deletebtn{
+  background-color: rgb(244, 85, 85);
+}
+ .deletebtn:hover{
+  background-color: transparent;
+  border: 2px rgb(244, 85, 85) solid;
+  color: rgb(244, 85, 85);
+}
+.editbtn:hover{
+  background-color:transparent ;
+  border: 2px rgb(10, 151, 3) solid;
+  color:rgb(10, 151, 3);
+}
+h1{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
